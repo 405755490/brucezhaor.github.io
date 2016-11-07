@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 gem 'github-pages', group: :jekyll_plugins
 gem 'wdm', '>= 0.1.0'
 gem 'jekyll-sitemap', '~> 0.10.0'
