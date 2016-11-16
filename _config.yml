@@ -61,7 +61,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 url: "http://405755490.github.io" 
 
 # page Sidebar settings
-sidebar-about-description: "A future technique geek."
+sidebar-about-description: "Every day is good"
 sidebar-avatar: /img/me2.jpg     # img前面加`/`绝对引用。
 
 
