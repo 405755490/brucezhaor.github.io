@@ -32,34 +32,14 @@ layout: default
 <!-- Main Content -->
 	<div class="container">
 		<div class="row">
-
 		<!-- Post Container -->
     		<div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
-                post-container">
-				
-    			{{ content }}
-				
-				<p class="text-right">
-				<a href="/">{{ page.author }}</a>
-				<span class="time">
-				/
-				<time>{{ page.date | date:"%Y-%m-%d" }}</time>
-				<style>span.test {color: #0085A5;font-weight: bold;}</style>
-				</span>/&nbsp;<span data-hk-page="current" class="test"> - </span>&nbsp;views
-				<br>
-				<span>
-					<strong><em>Published under<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">(CC) BY-NC-SA 3.0 CN</a>.
-					</em></strong>
-				</span>
-				
-					
-				
-				</p>
-	
-	
-
+                post-container">			
+    			{{ content }}			
+				<p class="text-right"></p>
+				 
                 <ul class="pager">
                     {% if page.previous %}
                     <li class="previous">
@@ -74,31 +54,22 @@ layout: default
                     {% else %}
                     <li class="next disabled"><a>Next &rarr;</a>
                     {% endif %}
-                </ul>
-
-
-            </div>
-	
-        </div>
-    </div>
-    
-
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-	<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js">
-		</script>
-	<script>
-	var cloudTieConfig = {
-	  url: document.location.href, 
-	  sourceId: "",
-	  productKey: "ce519e3e5f9c4e13b43e1f7b9850c0ed",
-	  target: "cloud-tie-wrapper"
-	};
-	var yunManualLoad = true;
-	Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
-</script>
-
-
-</article>
+                </ul> 
+                <div  id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+				<script>
+				  var cloudTieConfig = {
+				    url: document.location.href, 
+				    sourceId: "",
+				    productKey: "ce519e3e5f9c4e13b43e1f7b9850c0ed",
+				    target: "cloud-tie-wrapper"
+				  };
+				</script>
+				<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js">
+				</script>  
+		  	 </div>
+           </div>	        
+       </div> 
+ </article>
 
 
 
